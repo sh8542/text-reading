@@ -8,7 +8,7 @@ os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'velvety-calling-397914-732c29d7b
 
 def synthesize_speech(text, lang='日本語', gender='defalut'):
     gender_type = {
-        'defalut': texttospeech.SsmlVoiceGender.SSML_VOICE_GENDER_UNSPECIFIED,
+        'default': texttospeech.SsmlVoiceGender.SSML_VOICE_GENDER_UNSPECIFIED,
         'male': texttospeech.SsmlVoiceGender.MALE,
         'female': texttospeech.SsmlVoiceGender.FEMALE,
         'neutral': texttospeech.SsmlVoiceGender.NEUTRAL
